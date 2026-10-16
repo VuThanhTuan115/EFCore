@@ -65,10 +65,7 @@ namespace DAL
             {
                 using (var context = new AppDbConText())
                 {
-                    return context.Students
-                        .Where(sv => sv.Grade >= 5)
-                        .OrderByDescending(sv => sv.Grade)
-                        .ToList();
+                    return context.Students.Where(sv => sv.Grade >= 5).OrderByDescending(sv => sv.Grade).ToList();
                 }
             }
         }
