@@ -1,3 +1,7 @@
 <Solution>
-  <Project Path="EFCore/EFCore.csproj" />
+  <Project Path="BLL/BLL.csproj" Id="7f5c6c6b-5fc6-4c9e-a33e-24fd29f96610" />
+  <Project Path="DAL/DAL.csproj" Id="2cbb82cd-51fa-4465-a3d4-582622a1f896" />
+  <Project Path="EFCore/EFCore.csproj">
+    <BuildType Project="Debug" />
+  </Project>
 </Solution>

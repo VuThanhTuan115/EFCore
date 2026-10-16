@@ -50,6 +50,7 @@
             dgvSinhVien.RowHeadersWidth = 51;
             dgvSinhVien.Size = new Size(776, 306);
             dgvSinhVien.TabIndex = 0;
+            dgvSinhVien.CellContentClick += dgvSinhVien_CellContentClick;
             // 
             // bttThem
             // 
